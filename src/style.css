@@ -1,5 +1,52 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background-color: green;
+}
+.card{
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5)
+}
+.palo {
+
+    font-size: 80px;
+    height: 98px;
+    font-family: 'Playfair Display', serif;
+   
+}
+
+.contenedor-superior{
+    margin-top: -30px
+}   
+.contenedor-inferior{
+    margin-top: 57px;
+}   
+   
+.numero  {
+    font-size: 150px;
+    font-family: 'Playfair Display', serif;
+}
+.inferior {
+     transform: rotate(180deg);
+  transform-origin: center center; 
+  
+}
+
+#boton1:hover{
+    color:rgb(0, 4, 2);
+    background-color: rgb(231, 247, 65);
+}
+#temporizador:hover{
+    color:rgb(0, 4, 2);
+    background-color:rgb(231, 247, 65);
+}
+#pararTemporizador:hover{
+    color:rgb(0, 4, 2);
+    background-color: rgb(231, 247, 65);
+}
+
+
+
+button:active {
+    transform: scale(0.9);
 }
